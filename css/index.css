@@ -22,9 +22,87 @@
 .logo img {
   width: 130px;
 }
+.extra {
+  display: flex;
+  gap: 36px;
+}
 .extra a:first-child img {
   width: 28px;
 }
 .extra a:last-child img {
   width: 24px;
+}
+
+/* content */
+.hero {
+  width: 100%;
+  background-image: url(../images/shoes.png);
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  height: 698px;
+  position: relative;
+}
+.hero .text_box {
+  display: block;
+  position: absolute;
+  top: 260px;
+  left: 0;
+  /* padding-top: 260px; */
+}
+.hero .text_box h1 {
+  font-size: 60px;
+  width: 70%;
+}
+.btn {
+  width: 256px;
+  height: 64px;
+  color: #fff;
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* footer */
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 105px 0;
+}
+.footer .container {
+  display: flex;
+  gap: 232px;
+}
+.footer .menu {
+  flex: 8;
+  display: flex;
+  gap: 16px;
+}
+.footer .menu > li {
+  flex: 1;
+}
+.footer .menu > li > a {
+  display: block;
+  font-weight: 600;
+}
+
+.footer .follow {
+  flex: 2;
+  font-size: 20px;
+}
+.footer .follow .social {
+  display: flex;
+  gap: 16px;
+}
+.footer .follow .social a {
+  background-color: #fff;
+  color: #111;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  margin-top: 25px;
+
+  font-size: 20px;
 }
